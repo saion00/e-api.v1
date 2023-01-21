@@ -84,10 +84,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\":\"title61\",\n    \"description\":\"description10\",\n    \"code\":\"3444\",\n    \"price\":\"100\",\n    \"status\": \"true\",\n    \"stock\":\"stock1\",\n    \"category\":\"category1\",\n    \"thumbnail\": \"producto1.jpg\"\n}"
+					"raw": "{\n    \"title\":\"title61\",\n    \"description\":\"description10\",\n    \"code\":\"33949\",\n    \"price\":\"1000\",\n    \"status\": \"true\",\n    \"stock\":\"stock1\",\n    \"category\":\"category1\",\n    \"thumbnail\": \"producto1.jpg\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/products/38",
+					"raw": "http://localhost:8080/api/products/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -96,7 +96,7 @@
 					"path": [
 						"api",
 						"products",
-						"38"
+						"2"
 					]
 				}
 			},
