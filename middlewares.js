@@ -3,6 +3,11 @@ function pass(req, res, next) {
     next();
   }
   
+  function producto(req, res, next) {
+    console.log("Se esta accediendo a las rutas de /producto");
+    next();
+  }
+
   function compras(req, res, next) {
     console.log("Se esta accediendo a las rutas de /compras");
     next();
@@ -15,6 +20,7 @@ function pass(req, res, next) {
   
   module.exports = {
     pass,
+    producto,
     compras,
     errorHandler,
   };

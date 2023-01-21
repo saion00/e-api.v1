@@ -5,6 +5,8 @@ const middlewares = require("./middlewares");
 const { Product, ProductManager } = require('./clase-productos-tp4');
 const products_json = "products.json";
 
+routerProductos.use(middlewares.producto);
+
 const productos = new ProductManager();
 const allProducts = productos.allProductsJson;
 
